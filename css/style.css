@@ -1,4 +1,4 @@
-body{
+/* body{
     font-family: sans-serif;
     background-color: black;
 }
@@ -70,4 +70,41 @@ input[type = "submit"]{
 
 input[type = "submit"]:hover{
 background-color: greenyellow;
+} */
+
+
+body{
+    font-family: sans-serif;
+}
+
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+
+#book{}
+
+.book-bucket{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.book-element{
+    margin-top: 10px;
+}
+
+.book-element input{
+    padding: 4px;
+    height: 25px;
+    outline: none;
+}
+
+input[type = "submit"]{
+    margin-top: 10px;
+    padding: 10px;
+    width: 100%;
+    border-radius: 4px;
+    border: 1px solid black;
 }

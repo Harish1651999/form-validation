@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-    <div class="box">
+    <!-- <div class="box">
         <h1>LOGIN</h1>
         <form action="">
         <div>
@@ -19,6 +19,32 @@
         </div>
             <input type="submit" value="Login" onsubmit = validate()>
         </form>
+    </div>
+    <script src="./js/main.js"></script> -->
+    <div id="book">
+        <div class="container">
+            <div class="book-bucket">
+                <form action="">
+                <div class="book-element">
+                    <input id="name" type="text" placeholder="User name">
+                </div>
+                <div class="book-element">
+                    <input id="mail" type="text" placeholder="E-mail address">
+                </div>
+                <div class="book-element">
+                    <input id="phone" type="text" placeholder="Mobile number">
+                </div>
+                <div class="book-element">
+                    <input id="pwd" type="text" placeholder="Enter password">
+                </div>
+                <input type="submit" value="Submit" onclick="validate()">
+            </form>
+            <div id="name-value"></div>
+            <div id="mail-value"></div>
+            <div id="mobile-value"></div>
+            <div id="password-value"></div>
+            </div>
+        </div>
     </div>
     <script src="./js/main.js"></script>
 </body>
