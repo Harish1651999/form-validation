@@ -6,45 +6,34 @@
     <title>Document</title>
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500&display=swap" rel="stylesheet">
 </head>
 <body>
-    <!-- <div class="box">
-        <h1>LOGIN</h1>
-        <form action="">
-        <div>
-            <input type="text" id="fname" placeholder="Username" required>
-        </div>
-        <div> 
-            <input type="password" id="pwd" placeholder="Password" required>
-        </div>
-            <input type="submit" value="Login" onsubmit = validate()>
-        </form>
-    </div>
-    <script src="./js/main.js"></script> -->
     <div id="book">
         <div class="container">
             <div class="book-bucket">
                 <form action="">
                     <h1>FORM VALIDATION</h1>
                 <div class="book-element">
-                    <input id="name" type="text" placeholder="User name">
+                    <input id="name" type="text" placeholder="Your Name">
+                </div>
+                <div id="name-value"></div>
+                <div class="book-element">
+                    <input id="mail" type="text" placeholder="Your Mail">
                 </div>
                 <div class="book-element">
-                    <input id="mail" type="text" placeholder="E-mail address">
+                    <input id="phone" type="text" placeholder="Your Mobile number">
                 </div>
                 <div class="book-element">
-                    <input id="phone" type="text" placeholder="Mobile number">
+                    <input id="pwd" type="password" placeholder="Enter password">
                 </div>
-                <div class="book-element">
-                    <input id="pwd" type="text" placeholder="Enter password">
-                </div>
-                <input type="submit" value="Submit" onclick="validate()">
+                <input type="button" value="SUBMIT" onclick="validate()">
             </form>
-            <div id="name-value"></div>
             <div id="mail-value"></div>
             <div id="mobile-value"></div>
             <div id="password-value"></div>
-            </div>
+        </div>
         </div>
     </div>
     <script src="./js/main.js"></script>

@@ -25,5 +25,11 @@ function validate(){
     if(passWord.length >= 18){
         alert('Maximum 18 characters');
     }
-    // document.getElementById('name-value').textContent = userName;
+    
+    setTimeout(timer(){
+
+    },3000);
+    document.getElementById('name-value').innerText  = "Please enter your name";
     }
+
+    
