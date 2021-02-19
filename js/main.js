@@ -3,10 +3,14 @@ function validate(){
     let emailAddr = document.getElementById('mail').value;
     let mobileNum = document.getElementById('phone').value;
     let passWord = document.getElementById('pwd').value;
+    let nameValue = document.getElementById("name-value");
     
-    if(userName == ""){
-        alert('Please enter your name');
-    }
+    if (userName == "") {
+        nameValue.style.display = "block";
+        setTimeout(function () {
+          nameValue.style.display = "none";
+        }, 6000);
+      }
     
     let reg = /^([A-Za-z0-9_\-\.])+\@([A-Za-z0-9_\-\.])+\.([A-Za-z]{2,4})$/;
     if(!reg.test(emailAddr)){
@@ -26,10 +30,10 @@ function validate(){
         alert('Maximum 18 characters');
     }
     
-    setTimeout(timer(){
+    // setTimeout(timer(){
 
-    },3000);
-    document.getElementById('name-value').innerText  = "Please enter your name";
+    // },3000);
+    // document.getElementById('name-value').innerText  = "Please enter your name";
     }
 
     

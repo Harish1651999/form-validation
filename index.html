@@ -7,7 +7,8 @@
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/icofont.min.css">
 </head>
 <body>
     <div id="book">
@@ -17,8 +18,8 @@
                     <h1>FORM VALIDATION</h1>
                 <div class="book-element">
                     <input id="name" type="text" placeholder="Your Name">
+                    <div id="name-value">Please enter your name</div>
                 </div>
-                <div id="name-value"></div>
                 <div class="book-element">
                     <input id="mail" type="text" placeholder="Your Mail">
                 </div>
@@ -28,7 +29,8 @@
                 <div class="book-element">
                     <input id="pwd" type="password" placeholder="Enter password">
                 </div>
-                <input type="button" value="SUBMIT" onclick="validate()">
+                <button type="button" onclick="validate()">
+                    SUBMIT <i class="icofont-swoosh-right"></i></button>
             </form>
             <div id="mail-value"></div>
             <div id="mobile-value"></div>
