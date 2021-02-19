@@ -91,6 +91,10 @@ body{
     height: 100vh;
 }
 
+h1{
+    font-size: 18px;
+}
+
 .book-element{
     margin-top: 10px;
 }

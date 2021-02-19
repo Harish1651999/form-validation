@@ -5,7 +5,7 @@ function validate(){
     let passWord = document.getElementById('pwd').value;
     
     if(userName == ""){
-        alert('Please enter your name')
+        alert('Please enter your name');
     }
     
     let reg = /^([A-Za-z0-9_\-\.])+\@([A-Za-z0-9_\-\.])+\.([A-Za-z]{2,4})$/;
