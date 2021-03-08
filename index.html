@@ -18,23 +18,23 @@
                     <h1>FORM VALIDATION</h1>
                 <div class="book-element">
                     <input id="name" type="text" placeholder="Your Name">
-                    <div id="name-value">Please enter your name</div>
+                    <div id="name-value">* Name cannot be blank</div>
                 </div>
                 <div class="book-element">
-                    <input id="mail" type="text" placeholder="Your Mail">
+                    <input id="mail" type="text" placeholder="Your Mail" >
+                    <div id="mail-value">* Invalid mail</div>
                 </div>
                 <div class="book-element">
                     <input id="phone" type="text" placeholder="Your Mobile number">
+                    <div id="mobile-value">* Mobile number</div>
                 </div>
                 <div class="book-element">
-                    <input id="pwd" type="password" placeholder="Enter password">
+                    <input id="pwd" type="text" placeholder="Enter password">
+                    <div id="password-value">* password should contain atleast one number and one special character</div>
                 </div>
                 <button type="button" onclick="validate()">
                     SUBMIT <i class="icofont-swoosh-right"></i></button>
             </form>
-            <div id="mail-value"></div>
-            <div id="mobile-value"></div>
-            <div id="password-value"></div>
         </div>
         </div>
     </div>

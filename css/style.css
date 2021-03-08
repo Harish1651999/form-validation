@@ -70,12 +70,40 @@ button i{
 
 #name-value {
     padding: 2px;
-  background-color: #f44336;
+  /* background-color: #f44336; */
   color: white;
+  font-size: 11px;
   margin-bottom: 15px;
   display: none;
   position: absolute;
-  top: 34px;
-  left: 0px;
+  top: 38px;
+  right: 110px;
   width: 100%;
+  }
+
+  #mail-value{
+    font-size: 11px;
+    display: none;
+    position: absolute;
+    color: #fff;
+    top: 40px;
+    left: 5px;
+  }
+
+  #mobile-value{
+    font-size: 11px;
+    display: none;
+    position: absolute;
+    color: #fff;
+    top: 40px;
+    left: 5px;
+  }
+
+  #password-value{
+    font-size: 11px;
+    display: none;
+    position: absolute;
+    color: #fff;
+    top: 40px;
+    left: 5px;
   }
